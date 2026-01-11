@@ -1,102 +1,145 @@
 {
-    "Aluminums":[
-        {"name":"Bud Light", "price":"$5"},
-        {"name":"Budweiser", "price":"$5"},
-        {"name":"Coors Lite", "price":"$5"},
-        {"name":"Miller Lite", "price":"$5"}
-    ],
-    "Bottles":[
-        {"name":"Miller Lite", "price":"$4"},
-        {"name":"Coors Lite", "price":"$4"},
-        {"name":"Bud Light", "price":"$4"},
-        {"name":"Budweiser", "price":"$4"},
-        {"name":"Coors Banquet", "price":"$4"},
-        {"name":"Corona", "price":"$5"},
-        {"name":"Corona Light", "price":"$5"},
-        {"name":"Corona Premier", "price":"$5"},
-        {"name":"Heineken", "price":"$6"},
-        {"name":"Bells Two Hearted", "price":"$6"},
-        {"name":"Miller High Life", "price":"$4"},
-        {"name":"Miller High Life Light", "price":"$4"},
-        {"name":"Miller Genuine Draft", "price":"$4"},
-        {"name":"Michelob Ultra", "price":"$4"},
-        {"name":"Miller 64", "price":"$4"},
-        {"name":"New Castle Brown Ale", "price":"$5"},
-        {"name":"Sam Adams", "price":"$6"},
-        {"name":"Pacifico", "price":"$5"},
-        {"name":"Hacker Pschorr", "price":"$6"}
-    ],
-    "Cans": [
-        {"name":"3 Floyds Gumballhead", "price":"$7"},
-        {"name":"Boddingtons", "price":"$6"},
-        {"name":"Allagash White", "price":"$7"},
-        {"name":"Dogfish Head 60 Minute IPA", "price":"$5"},
-        {"name":"Scorched Earth Hickster", "price":"$6"},
-        {"name":"Busch Light", "price":"$5"},
-        {"name":"PBR", "price":"$5"},
-        {"name":"Rolling Rock", "price":"$5"},
-        {"name":"Old Style", "price":"$5"},
-        {"name":"CLB Beach Blonde", "price":"$6"},
-        {"name":"CLB Frozen Over", "price":"$6"},
-        {"name":"Prairie Path (Gluten Free)", "price":"$6"}
-    ],
-    "THC":[
-        {"name":"Reverb", "price":"$7"}
-    ],
-    "Drafts 16oz/20oz":[
-        {"name":"Miller Lite", "price":"$5/$6"},
-        {"name":"Coors Lite", "price":"$5/$6"},
-        {"name":"Blue Moon", "price":"$7/$8"},
-        {"name":"Stella", "price":"$7/$8"},
-        {"name":"Peroni", "price":"$7/$8"},
-        {"name":"Bells Seasonal", "price":"$7/$8"},
-        {"name":"Guinness", "price":"$7/$8"},
-        {"name":"Lagunitas", "price":"$7/$8"},
-        {"name":"Revolution Anti-Hero", "price":"$7/$8"},
-        {"name":"Sam Adams Seasonal", "price":"$7/$8"},
-        {"name":"Summer Shandy", "price":"$7/$8"},
-        {"name":"Daisy Cutter", "price":"$7/$8"},
-        {"name":"Yuengling", "price":"$5/$7"},
-        {"name":"Yuengling Flight", "price":"$5/$7"},
-        {"name":"Kishwaukee English Ale", "price":"$5/$6"}
-    ],
-    "10oz Drafts":[
-        {"name":"Miller Lite", "price":"$3.90"},
-        {"name":"Coors Lite", "price":"$3.90"}
-    ],
-    "Pitchers":[
-        {"name":"Domestic", "price":"$14"},
-        {"name":"Imports", "price":"$18"}
-    ],
-    "NA Beers":[
-        {"name":"Corona NA", "price":"$6"},
-        {"name":"Heineken 0.0", "price":"$6"},
-        {"name":"Guinness NA", "price":"$6"}
-
-    ],
-    "Ciders and Seltzers":[
-        {"name":"Twisted Tea", "price":"$5"},
-        {"name":"Killy's", "price":"$5"},
-        {"name":"Carbliss", "price":"$7"},
-        {"name":"High Noon", "price":"$8"},
-        {"name":"White Claw", "price":"$7"},
-        {"name":"Angry Orchard", "price":"$5"},
-        {"name":"Cider Boys", "price":"$6"}
-    ],
-    "White Wines 6oz/9oz":[
-        {"name":"Oxford Landing Pinot Grigio", "price":"$6/$9"},
-        {"name":"Giesen Sauvignon Blanc", "price":"$8/$11"},
-        {"name":"Century Cellars Chardonnay", "price":"$6/$9"},
-        {"name":"Salmon Creek Chardonnay", "price":"$8/$11"},
-        {"name":"Clean Slate Riesling", "price":"$8/$11"},
-        {"name":"J Roget Brut Champagne", "price":"$6/$8"},
-        {"name":"J Roget Sparkling Rose", "price":"$6/$8"}
-    ],
-    "Red Wines 6oz/9oz":[
-        {"name":"Grand Cru Pinot Noir", "price":"$6/$9"},
-        {"name":"Line 39 Pinot Noir", "price":"$8/$11"},
-        {"name":"Century Cellars Cabernet", "price":"$6/$9"},
-        {"name":"Calmon Creek Cabernet", "price":"$8/$11"},
-        {"name":"Frontera Malbec", "price":"$8/$11"}
-    ]
+    "aluminums": {
+        "label":"Aluminums",
+        "sizes": ["each"],
+        "items": [
+            {"name":"Bud Light", "price":5},
+            {"name":"Budweiser", "price":5},
+            {"name":"Coors Lite", "price":5},
+            {"name":"Miller Lite", "price":5}
+        ]
+    },
+    "bottles": {
+        "label":"Bottles",
+        "sizes": ["each"],
+        "items": [
+            {"name":"Miller Lite", "price":4},
+            {"name":"Coors Lite", "price":4},
+            {"name":"Bud Light", "price":4},
+            {"name":"Budweiser", "price":4},
+            {"name":"Coors Banquet", "price":4},
+            {"name":"Corona", "price":5},
+            {"name":"Corona Light", "price":5},
+            {"name":"Corona Premier", "price":5},
+            {"name":"Heineken", "price":6},
+            {"name":"Bells Two Hearted", "price":6},
+            {"name":"Miller High Life", "price":4},
+            {"name":"Miller High Life Light", "price":4},
+            {"name":"Miller Genuine Draft", "price":4},
+            {"name":"Michelob Ultra", "price":4},
+            {"name":"Miller Extra Light", "price":4},
+            {"name":"New Castle Brown Ale", "price":5},
+            {"name":"Sam Adams", "price":6},
+            {"name":"Pacifico", "price":5},
+            {"name":"Hacker Pschorr", "price":6}
+        ]
+    },
+    "cans": {
+        "label":"Cans",
+        "sizes": ["each"],
+        "items": [
+            {"name":"3 Floyds Gumballhead", "price":7},
+            {"name":"Boddingtons", "price":6},
+            {"name":"Allagash White", "price":7},
+            {"name":"Dogfish Head 60 Minute IPA", "price":5},
+            {"name":"Scorched Earth Hickster", "price":6},
+            {"name":"Busch Light", "price":5},
+            {"name":"PBR", "price":5},
+            {"name":"Old Style", "price":5},
+            {"name":"CLB Beach Blonde", "price":6},
+            {"name":"Prairie Path (Gluten Free)", "price":6}
+        ]
+    },
+    "thc": {
+        "label":"THC",
+        "sizes": ["each"],
+        "items": [
+            {"name":"Reverb", "price":7}
+        ]
+    },
+    "drafts": {
+        "label":"Drafts 16/20",
+        "sizes": ["16oz", "20oz"],
+        "items": [
+            {"name":"Miller Lite", "prices": [5,6]},
+            {"name":"Coors Lite", "prices":[5,6]},
+            {"name":"Blue Moon", "prices":[7,8]},
+            {"name":"Stella", "prices":[7,8]},
+            {"name":"Peroni", "prices":[7,8]},
+            {"name":"Bells Seasonal", "prices":[7,8]},
+            {"name":"Guinness", "prices":[7,8]},
+            {"name":"Lagunitas", "prices":[7,8]},
+            {"name":"Revolution Anti-Hero", "prices":[7,8]},
+            {"name":"Sam Adams Seasonal", "prices":[7,8]},
+            {"name":"Summer Shandy", "prices":[7,8]},
+            {"name":"Daisy Cutter", "prices":[7,8]},
+            {"name":"Yuengling", "prices":[5,7]},
+            {"name":"Yuengling Flight", "prices":[5,7]},
+            {"name":"Kishwaukee English Ale", "prices":[5,6]}
+        ]
+    },
+    "drafts_10oz": {
+        "label":"10oz Drafts",
+        "sizes": ["each"],
+        "items": [
+            {"name":"Miller Lite", "price":3.90},
+            {"name":"Coors Lite", "price":3.90}
+        ]
+    },
+    "pitchers": {
+        "label": "Pitchers",
+        "sizes": ["each"],
+        "items": [
+            {"name":"Domestic", "price":14},
+            {"name":"Imports", "price":18}
+        ]
+    },
+    "na_beers": {
+        "label": "NA Beers",
+        "sizes": ["each"],
+        "items": [
+            {"name":"Corona NA", "price":6},
+            {"name":"Heineken 0.0", "price":6},
+            {"name":"Guinness NA", "price":6},
+            {"name":"Stella NA", "price":6}
+        ]
+    },
+    "ciders_seltzers":{
+        "label": "Ciders & Seltzers",
+        "sizes": ["each"],
+        "items": [
+            {"name":"Twisted Tea", "price":5},
+            {"name":"Killy's", "price":5},
+            {"name":"Lucky Ones", "price":8},
+            {"name":"Carbliss", "price":7},
+            {"name":"High Noon", "price":8},
+            {"name":"White Claw", "price":7},
+            {"name":"Angry Orchard", "price":5},
+            {"name":"Cider Boys", "price":6}
+        ]
+    },
+    "white_wines": {
+        "label":"White Wines 6/9",
+        "sizes": ["6oz", "9oz"],
+        "items": [
+            {"name":"Oxford Landing Pinot Grigio", "prices":[6,9]},
+            {"name":"Giesen Sauvignon Blanc", "prices":[8,11]},
+            {"name":"Century Cellars Chardonnay", "prices":[6,9]},
+            {"name":"Salmon Creek Chardonnay", "prices":[8,11]},
+            {"name":"Clean Slate Riesling", "prices":[8,11]},
+            {"name":"J Roget Brut Champagne", "prices":[6,8]},
+            {"name":"J Roget Sparkling Rose", "prices":[6,8]}
+        ]
+    },
+    "red_wines": {
+        "label":"Red Wines 6/9",
+        "sizes": ["6oz", "9oz"],
+        "items": [
+            {"name":"Grand Cru Pinot Noir", "prices":[6,9]},
+            {"name":"Line 39 Pinot Noir", "prices":[8,11]},
+            {"name":"Century Cellars Cabernet", "prices":[6,9]},
+            {"name":"Calmon Creek Cabernet", "prices":[8,11]},
+            {"name":"Frontera Malbec", "prices":[8,11]}
+        ]
+    }
 }
