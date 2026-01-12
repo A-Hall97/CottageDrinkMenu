@@ -1,15 +1,25 @@
+/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     padding: 18px;
     width: 100%;
     text-align: left;
     font-size: 15px;
 }
+
 .accordion:after {
     content: '\02795';
     font-size: 13px;
     float: right;
     margin-left: 5px;
 }
+
 .active:after {
     content: "\2796";
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
 }
