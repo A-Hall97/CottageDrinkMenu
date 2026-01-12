@@ -1,8 +1,10 @@
-var acc = document.getElementsByClassName("accordion");
+
+// accordion functionality modifications
+var acc1 = document.getElementsByClassName("accordion");
 var i;
 
-for(i = 0; i <acc.length; i++) {
-    acc[i].addEventListener("click", function() {
+for(i = 0; i <acc1.length; i++) {
+    acc1[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {
@@ -12,3 +14,7 @@ for(i = 0; i <acc.length; i++) {
         }
     });
 }
+
+/*document.addEventListener('DOMContentLoaded', () => {
+
+})*/
