@@ -39,7 +39,7 @@
         "label":"Cans",
         "sizes": ["each"],
         "items": [
-            {"name":"3 Floyds Gumballhead", "price":7},
+            {"name":"3 Floyds Gumballhead IPA", "price":7},
             {"name":"Boddingtons", "price":6},
             {"name":"Allagash White", "price":7},
             {"name":"Dogfish Head 60 Minute IPA", "price":5},
@@ -49,7 +49,7 @@
             {"name":"Old Style", "price":5},
             {"name":"CLB Beach Blonde", "price":6},
             {"name":"Eleanor Porter", "price":7},
-            {"name":"Son of Juice Hazy IPA by Maplewood Brewing", "price":7},
+            {"name":"Son of Juice Hazy IPA", "price":7},
             {"name":"Prairie Path (Gluten Free)", "price":6}
         ]
     },
