@@ -32,6 +32,7 @@
             {"name":"Sam Adams", "price":6},
             {"name":"Pacifico", "price":5},
             {"name":"Hacker Pschorr", "price":6}
+            {"name":"Lagunitas Little Sumpin", "price":6}
         ]
     },
     "cans": {
@@ -71,19 +72,11 @@
             {"name":"Lagunitas", "prices":[7,8]},
             {"name":"Revolution Anti-Hero", "prices":[7,8]},
             {"name":"Sam Adams Seasonal", "prices":[7,8]},
-            {"name":"Summer Shandy", "prices":[7,8]},
+            {"name":"Leinenkugels Seasonal", "prices":[7,8]},
             {"name":"Daisy Cutter", "prices":[7,8]},
             {"name":"Yuengling", "prices":[5,7]},
             {"name":"Yuengling Flight", "prices":[5,7]},
             {"name":"Kishwaukee English Ale", "prices":[5,6]}
-        ]
-    },
-    "drafts_10oz": {
-        "label":"10oz Drafts",
-        "sizes": ["each"],
-        "items": [
-            {"name":"Miller Lite", "price":3.90},
-            {"name":"Coors Lite", "price":3.90}
         ]
     },
     "pitchers": {
@@ -109,7 +102,7 @@
         "sizes": ["each"],
         "items": [
             {"name":"Twisted Tea", "price":5},
-            {"name":"Killy's", "price":5},
+            {"name":"Killys", "price":5},
             {"name":"Lucky Ones", "price":8},
             {"name":"Carbliss", "price":7},
             {"name":"High Noon", "price":8},
@@ -124,7 +117,7 @@
         "items": [
             {"name":"Oxford Landing Pinot Grigio", "prices":[6,9]},
             {"name":"Giesen Sauvignon Blanc", "prices":[8,11]},
-            {"name":"Century Cellars Chardonnay", "prices":[6,9]},
+            {"name":"House Chardonnay", "prices":[6,9]},
             {"name":"Salmon Creek Chardonnay", "prices":[8,11]},
             {"name":"Clean Slate Riesling", "prices":[8,11]},
             {"name":"J Roget Brut Champagne", "prices":[6,8]},
@@ -135,9 +128,9 @@
         "label":"Red Wines 6/9",
         "sizes": ["6oz", "9oz"],
         "items": [
-            {"name":"Grand Cru Pinot Noir", "prices":[6,9]},
+            {"name":"House Pinot Noir", "prices":[6,9]},
             {"name":"Line 39 Pinot Noir", "prices":[8,11]},
-            {"name":"Century Cellars Cabernet", "prices":[6,9]},
+            {"name":"House Cabernet", "prices":[6,9]},
             {"name":"Calmon Creek Cabernet", "prices":[8,11]},
             {"name":"Frontera Malbec", "prices":[8,11]}
         ]
