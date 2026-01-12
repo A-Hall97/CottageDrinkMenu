@@ -10,7 +10,7 @@
 
 .accordion:after {
     content: '\02795';
-    font-size: 10vw;
+    font-size: 5vw;
     float: right;
     margin-left: 5px;
 }
