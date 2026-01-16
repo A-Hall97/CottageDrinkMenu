@@ -37,7 +37,7 @@ Object.values(menu).forEach(section => {
 });
 
 // accordion functionality modifications
-var acc1 = document.getElementsByClassName("accordion");
+let acc1 = document.getElementsByClassName("accordion");
 var i;
 
 for(i = 0; i <acc1.length; i++) {
