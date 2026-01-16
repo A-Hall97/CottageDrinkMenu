@@ -1,53 +1,56 @@
-// create accordion buttons for each drink type
-const menuContainer = document.getElementById("menu");
+document.addEventListener("DOMContentLoaded", () => {
 
-Object.values(menu).forEach(section => {
-  // Create accordion button
-  const button = document.createElement("button");
-  button.className = "accordion";
-  button.textContent = section.label;
+    // create accordion buttons for each drink type
+    const menuContainer = document.getElementById("menu");
 
-  // Create panel
-  const panel = document.createElement("div");
-  panel.className = "panel";
+    Object.values(menu).forEach(section => {
+    // Create accordion button
+    const button = document.createElement("button");
+    button.className = "accordion";
+    button.textContent = section.label;
 
-  // Populate panel with items
-  section.items.forEach(item => {
-    const row = document.createElement("p");
+    // Create panel
+    const panel = document.createElement("div");
+    panel.className = "panel";
 
-    // Single price item
-    if (item.price !== undefined) {
-      row.textContent = `${item.name} — $${item.price}`;
-    }
+    // Populate panel with items
+    section.items.forEach(item => {
+        const row = document.createElement("p");
 
-    // Multiple price item
-    if (item.prices !== undefined) {
-      const pricesText = item.prices
-        .map((p, i) => `${section.sizes[i]}: $${p}`)
-        .join(" | ");
-
-      row.textContent = `${item.name} — ${pricesText}`;
-    }
-
-    panel.appendChild(row);
-  });
-
-  menuContainer.appendChild(button);
-  menuContainer.appendChild(panel);
-});
-
-// accordion functionality modifications
-let acc1 = document.getElementsByClassName("accordion");
-var i;
-
-for(i = 0; i <acc1.length; i++) {
-    acc1[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
+        // Single price item
+        if (item.price !== undefined) {
+        row.textContent = `${item.name} — $${item.price}`;
         }
+
+        // Multiple price item
+        if (item.prices !== undefined) {
+        const pricesText = item.prices
+            .map((p, i) => `${section.sizes[i]}: $${p}`)
+            .join(" | ");
+
+        row.textContent = `${item.name} — ${pricesText}`;
+        }
+
+        panel.appendChild(row);
     });
-}
+
+    menuContainer.appendChild(button);
+    menuContainer.appendChild(panel);
+    });
+
+    // accordion functionality modifications
+    let acc1 = document.getElementsByClassName("accordion");
+    var i;
+
+    for(i = 0; i <acc1.length; i++) {
+        acc1[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+});
