@@ -1,3 +1,40 @@
+// create accordion buttons for each drink type
+const menuContainer = document.getElementById("menu");
+
+Object.values(menu).forEach(section => {
+  // Create accordion button
+  const button = document.createElement("button");
+  button.className = "accordion";
+  button.textContent = section.label;
+
+  // Create panel
+  const panel = document.createElement("div");
+  panel.className = "panel";
+
+  // Populate panel with items
+  section.items.forEach(item => {
+    const row = document.createElement("p");
+
+    // Single price item
+    if (item.price !== undefined) {
+      row.textContent = `${item.name} — $${item.price}`;
+    }
+
+    // Multiple price item
+    if (item.prices !== undefined) {
+      const pricesText = item.prices
+        .map((p, i) => `${section.sizes[i]}: $${p}`)
+        .join(" | ");
+
+      row.textContent = `${item.name} — ${pricesText}`;
+    }
+
+    panel.appendChild(row);
+  });
+
+  menuContainer.appendChild(button);
+  menuContainer.appendChild(panel);
+});
 
 // accordion functionality modifications
 var acc1 = document.getElementsByClassName("accordion");
@@ -14,7 +51,3 @@ for(i = 0; i <acc1.length; i++) {
         }
     });
 }
-
-/*document.addEventListener('DOMContentLoaded', () => {
-
-})*/
