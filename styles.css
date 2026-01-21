@@ -73,7 +73,7 @@ body {
 
 /* Logo Header */
 .logo-header {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     background-color: #000;
     padding: 12px;
