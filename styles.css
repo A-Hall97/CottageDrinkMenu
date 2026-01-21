@@ -82,7 +82,7 @@ body {
 }
 
 .logo-header img {
-    width: (120px, 40vw, 180px);
+    width: clamp(120px, 40vw, 180px);
     height: auto;
 }
 
