@@ -71,6 +71,17 @@ body {
     content: "\2796"; /* − */
 }
 
+/* Day Header */
+.day-header {
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: clamp(18px, 5vw, 22px);
+    opacity: 0.9;
+    border-bottom: 1px solid #333;
+    padding-bottom: 4px;
+}
+
 /* Logo Header */
 .logo-header {
     /* position: sticky; */
