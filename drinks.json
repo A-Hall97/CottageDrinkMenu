@@ -85,8 +85,8 @@
         "label": "Pitchers",
         "sizes": ["each"],
         "items": [
-            {"name":"Domestic", "price":14},
-            {"name":"Imports", "price":18}
+            {"name":"Domestic", "price":16},
+            {"name":"Imports", "price":20}
         ]
     },
     "na_beers": {
